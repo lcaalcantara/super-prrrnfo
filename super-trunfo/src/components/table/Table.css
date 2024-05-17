@@ -1,0 +1,102 @@
+.card-back {
+    width: 136px;
+    height: 222px;
+}
+
+.table {
+    padding: 10px;
+    margin: 0 10px;
+    height: calc(100vh - 67px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    background-color: rgb(82, 82, 82);
+}
+
+.deck {
+    padding-right: 25px;
+}
+
+.player-table {
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.game-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    gap: 200px
+}
+
+.attributes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.card {
+    width: 127px;
+    height: 207px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+
+    margin: 10px 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 15px;
+}
+
+.card-img {
+    max-width: 110px;
+
+    align-self: center;
+}
+
+.card-name {
+    margin: 2px 0;
+    font-style: italic;
+    font-weight: bold;
+
+    align-self: center;
+}
+
+.card-attributes {
+    margin-top: 2px;
+    display: flex;
+    padding-left: 5px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 3px;
+    font-size: 13px;
+}
+
+.score-board {
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    color: white;
+    font-size: 20px;
+}
