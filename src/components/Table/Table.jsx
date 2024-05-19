@@ -4,7 +4,7 @@ import Modal from '../Modal/Modal';
 
 const originalDeck = [
 	{
-		cardImg: "src/assets/barbaro.png",
+		cardImg: "../super-trunfo/src/assets/barbaro.png",
 		cardName: "Felpudo, o Bárbaro",
 		strenght: 210,
 		defense: 100,
@@ -12,7 +12,7 @@ const originalDeck = [
 		agility: 90
 	},
 	{
-		cardImg: "src/assets/assassino.png",
+		cardImg: "../super-trunfo/src/assets/assassino.png",
 		cardName: "Pantera, a Assassina",
 		strenght: 130,
 		defense: 75,
@@ -20,7 +20,7 @@ const originalDeck = [
 		agility: 190
 	},
 	{
-		cardImg: "src/assets/bardo.png",
+		cardImg: "../super-trunfo/src/assets/bardo.png",
 		cardName: "Bichano, o Bardo",
 		strenght: 60,
 		defense: 65,
@@ -28,7 +28,7 @@ const originalDeck = [
 		agility: 145
 	},
 	{
-		cardImg: "src/assets/guerreiro.png",
+		cardImg: "../super-trunfo/src/assets/guerreiro.png",
 		cardName: "Fofo, o Guerreiro",
 		strenght: 170,
 		defense: 155,
@@ -36,7 +36,7 @@ const originalDeck = [
 		agility: 85
 	},
 	{
-		cardImg: "src/assets/ladino.png",
+		cardImg: "../super-trunfo/src/assets/ladino.png",
 		cardName: "Mingau, o Ladino",
 		strenght: 40,
 		defense: 60,
@@ -44,7 +44,7 @@ const originalDeck = [
 		agility: 195
 	},
 	{
-		cardImg: "src/assets/feiticeiro.png",
+		cardImg: "../super-trunfo/src/assets/feiticeiro.png",
 		cardName: "Mimi, a Feiticeira",
 		strenght: 20,
 		defense: 15,
@@ -52,7 +52,7 @@ const originalDeck = [
 		agility: 135
 	},
 	{
-		cardImg: "src/assets/arqueiro.png",
+		cardImg: "../super-trunfo/src/assets/arqueiro.png",
 		cardName: "Bob, o Arqueiro",
 		strenght: 50,
 		defense: 90,
@@ -60,7 +60,7 @@ const originalDeck = [
 		agility: 170
 	},
 	{
-		cardImg: "src/assets/clerigo.png",
+		cardImg: "../super-trunfo/src/assets/clerigo.png",
 		cardName: "Fiona, a Clériga",
 		strenght: 20,
 		defense: 195,
@@ -68,7 +68,7 @@ const originalDeck = [
 		agility: 45
 	},
 	{
-		cardImg: "src/assets/mago.png",
+		cardImg: "../super-trunfo/src/assets/mago.png",
 		cardName: "Bichento, o Mago",
 		strenght: 20,
 		defense: 15,
@@ -76,7 +76,7 @@ const originalDeck = [
 		agility: 35
 	},
 	{
-		cardImg: "src/assets/mercenario.png",
+		cardImg: "../super-trunfo/src/assets/mercenario.png",
 		cardName: "Tigre, o Mercenário",
 		strenght: 140,
 		defense: 150,
@@ -84,7 +84,7 @@ const originalDeck = [
 		agility: 165
 	},
 	{
-		cardImg: "src/assets/monge.png",
+		cardImg: "../super-trunfo/src/assets/monge.png",
 		cardName: "Pelado, o Monge",
 		strenght: 160,
 		defense: 110,
@@ -92,7 +92,7 @@ const originalDeck = [
 		agility: 195
 	},
 	{
-		cardImg: "src/assets/paladino.png",
+		cardImg: "../super-trunfo/src/assets/paladino.png",
 		cardName: "Pitito, o Paladino",
 		strenght: 45,
 		defense: 200,
@@ -299,7 +299,7 @@ function Table() {
 				<div className='player-table'>
 
 					<div className='deck'>
-						<img className='card-back' src="src/assets/verso-carta.png" alt="" />
+						<img className='card-back' src="../super-trunfo/src/assets/verso-carta.png" alt="" />
 					</div>
 
 					<div className='game-area'>
@@ -327,7 +327,7 @@ function Table() {
 						}
 
 						{(start && roundStart) &&
-							<img className='card-back' src="src/assets/verso-carta.png" alt="" />
+							<img className='card-back' src="../super-trunfo/src/assets/verso-carta.png" alt="" />
 						}
 
 						{(!start && !roundStart) &&
@@ -349,7 +349,7 @@ function Table() {
 						<img
 							className='card-back player'
 							onClick={start ? handleDrawCard : handleShuffleDecks}
-							src="src/assets/verso-carta.png"
+							src="../super-trunfo/src/assets/verso-carta.png"
 							alt=""
 						/>
 					</div>
