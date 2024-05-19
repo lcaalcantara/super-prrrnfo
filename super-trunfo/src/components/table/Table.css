@@ -1,6 +1,6 @@
 .card-back {
-    width: 136px;
-    height: 222px;
+    width: 168px;
+    height: 274px;
 }
 
 .table {
@@ -12,10 +12,15 @@
     gap: 5px;
 
     background-color: rgb(82, 82, 82);
+    border-radius: 3px;
 }
 
 .deck {
     padding-right: 25px;
+}
+
+.deck .player:hover {
+    cursor: pointer;
 }
 
 .player-table {
@@ -46,27 +51,35 @@
     font-size: 20px;
 }
 
+.player span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .card {
-    width: 127px;
-    height: 207px;
+    width: 156px;
+    height: 258px;
 
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: left;
 
     margin: 10px 0px;
     border: 1px solid white;
     border-radius: 5px;
 
+    background-color: rgb(29, 29, 29);
     color: white;
     font-size: 15px;
 }
 
 .card-img {
-    max-width: 110px;
+    max-width: 140px;
 
     align-self: center;
+
+    border-bottom: 1px solid white;
 }
 
 .card-name {
@@ -81,11 +94,14 @@
     margin-top: 2px;
     display: flex;
     padding-left: 5px;
+    padding-bottom: 10px;
+
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    gap: 3px;
-    font-size: 13px;
+
+    gap: 5px;
+    font-size: 14px;
 }
 
 .score-board {
@@ -98,5 +114,5 @@
 
 .score {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
